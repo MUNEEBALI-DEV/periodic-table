@@ -1,0 +1,79 @@
+.para {
+  padding-left: 770px;
+  padding-bottom: 1.2rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+table {
+  margin-inline: auto;
+}
+
+th {
+  border: 1px solid black;
+  padding: 3px 15px;
+}
+
+.hidden {
+  border: none;
+  padding: 0;
+  
+}
+th.column {
+  position: relative; /* Allows absolute positioning inside */
+}
+
+th.column::before {
+  content: "1A";
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+ th.column-2A::before {
+    content: "2A";
+}
+ th.column-3A::before {
+    content: "3A";
+}
+ th.column-4A::before {
+    content: "4A";
+}
+ th.column-5A::before {
+    content: "5A";
+}
+ th.column-6A::before {
+    content: "6A";
+}
+ th.column-7A::before {
+    content: "7A";
+}
+ th.column-8A::before {
+    content: "8A";
+}
+ th.column-1B::before {
+    content: "1B";
+}
+ th.column-2B::before {
+    content: "2B";
+}
+ th.column-3B::before {
+    content: "3B";
+}
+ th.column-4B::before {
+    content: "4B";
+}
+ th.column-5B::before {
+    content: "5B";
+}
+ th.column-6B::before {
+    content: "6B";
+}
+ th.column-7B::before {
+    content: "7B";
+}
+ th.column-8B::before {
+    content: "8B";
+}
